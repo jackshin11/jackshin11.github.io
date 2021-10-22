@@ -1,0 +1,293 @@
+
+    @font-face {
+            font-family: 'BMEuljiro10yearslater';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/BMEuljiro10yearslater.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    @font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    @font-face {
+    font-family: 'SF_IceLemon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'NEXON Lv1 Gothic OTF';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+  
+
+
+
+    
+    a{
+      text-decoration:none;
+    }
+    .header {
+      position: relative;
+      padding: 18px 2%;
+      height: 50px;
+    }
+
+  
+
+
+    .header .menubar {
+      margin: 0;
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 60%;
+      list-style-type: none;
+      width: 40%;
+      background: rgba(128, 128, 128, 0.4);
+    }
+
+   
+
+  
+    @media all and (min-width:768px) {
+      
+      .header {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 0px;
+        height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: white;
+      }
+    
+      .header nav {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 100%;
+      }
+      .header .menubar {
+        display: block;
+        height: 100%;
+        grid-template-columns: 15% 15% 15% 15%;
+        position: static;
+        width: auto;
+        background: none;
+      }
+      .header .menubar li {
+        float: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-bottom: 0;
+      }
+      .header .menubar .menu #menu1 {
+        color: greenyellow;
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu2 {
+        color: lightgray;
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu3 {
+        color: gold;
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu4 {
+        color: lightpink;
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu5 {
+        color: lightskyblue;
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu1:hover{
+        color: rgb(107, 170, 12);
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu2:hover{
+        color: rgb(105, 87, 87);
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu3:hover{
+        color: rgb(168, 147, 28);
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu4:hover{
+        color: rgb(133, 23, 39);
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .header .menubar .menu #menu5:hover{
+        color: rgb(77, 145, 187);
+        padding: 0;
+        font-family: 'SF_IceLemon';
+        font-size: 20px;
+        font-weight: 600;
+      }
+      div {width: 100vw; height: 100vh;}
+
+    }
+
+    #one 
+    {
+        background: #FEAC5E;
+        background: linear-gradient(to right, #de8cee, #6bd9e0, #CEFBC9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #introduce1 {
+      flex: 1;
+      vertical-align: middle;
+    }
+    #introduce1 h1 {
+        margin-top: 30%;
+        font-family: 'Cafe24SsurroundAir';
+        font-size: 64px;
+        line-height: 1.5;
+        color: #fff;
+        text-align: center;
+    }
+
+    #introduce1 h2 {
+          font-family: 'Cafe24SsurroundAir';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+        text-align: center;
+    }
+
+    #two {
+      background: lightskyblue;
+     
+    }
+    #two h1 {
+      padding-top: 120px;
+      font-family: 'Cafe24SsurroundAir', sans-serif;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 1.5;
+      text-align: center;
+    }
+    .frame1 {
+      display: -webkit-flex;
+      display: flex;
+      margin-top: 150px;
+    }
+    .hobby {
+      flex: 1;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .hobby_img {
+      max-width: 250px;
+      display : inline;
+    }
+    .hobby_text {
+      margin-top: 30px;
+      font-family: "Cafe24SsurroundAir", sans-serif;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 1.5;
+      color: white;
+    }
+
+  #three {
+    background: lightpink;
+  }
+#three h1 {
+  padding-top: 100px;
+  font-family: "Cafe24SsurroundAir", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.5;
+  text-align: center;
+}
+#three h1 span {
+  font-family: 'Cafe24SsurroundAir', sans-serif;
+  font-weight: 400;
+}
+.frame2 {
+  display: flex;
+  margin-top: 90px;
+}
+.자문자답 {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.자문자답 p {
+  font-family: "Cafe24SsurroundAir", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 25px;
+  line-height: 5.5;
+}
+.자문자답 p:hover {
+  font-size: 0;
+}
+.자문자답 p:hover::before {
+  font-size: 25px;
+  font-weight: bold;
+  color: #b0df2f;
+}
+.자문자답 #자답0:hover:before {
+  content: '부모님과 누나 그리고 나';
+}
+.자문자답 #자답1:hover:before {
+  content: '서울 토박이입니다~';
+}
+.자문자답 #자답2:hover:before {
+  content: '짜장면';
+}
+.자문자답 #자답3:hover:before {
+  content: '1997년 6월 19일';
+}
+.자문자답 #자답4:hover:before {
+  content: '아이폰 한번도 안써봤어요';
+}
+.자문자답 #자답5:hover:before {
+  content: '쏘맥';
+}
